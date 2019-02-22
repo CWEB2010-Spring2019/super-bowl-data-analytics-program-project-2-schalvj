@@ -1,0 +1,113 @@
+                                                        SUPER BOWL WINNERS                                                              
+----Winning Team------------Year-----Winning Quarterback--------------Winning Coach-------Super Bowl MVP------------------Point Spread--
+    Green Bay Packers       1967     Bart Starr                       Vince Lombardi      Bart Starr                      25               
+    Green Bay Packers       1968     Bart Starr                       Vince Lombardi      Bart Starr                      19               
+    New York Jets           1969     Joe Namath                       Weeb Ewbank         Joe Namath                      9                
+    Kansas City Chiefs      1970     Len Dawson Mike Livingston       Hank Stram          Len Dawson                      16               
+    Baltimore Colts         1971     Earl Morrall Johnny Unitas       Don McCafferty      Chuck Howley                    3                
+    Dallas Cowboys          1972     Roger Staubach                   Tom Landry          Roger Staubach                  21               
+    Miami Dolphins          1973     Bob Griese                       Don Shula           Jake Scott                      7                
+    Miami Dolphins          1974     Bob Griese                       Don Shula           Larry Csonka                    17               
+    Pittsburgh Steelers     1975     Terry Bradshaw                   Chuck Noll          Franco Harris                   10               
+    Pittsburgh Steelers     1976     Terry Bradshaw                   Chuck Noll          Lynn Swann                      4                
+    Oakland Raiders         1977     Kenny Stabler                    John Madden         Fred Biletnikoff                18               
+    Dallas Cowboys          1978     Roger Staubach                   Tom Landry          Harvey Martin Randy White       17               
+    Pittsburgh Steelers     1979     Terry Bradshaw                   Chuck Noll          Terry Bradshaw                  4                
+    Pittsburgh Steelers     1980     Terry Bradshaw                   Chuck Noll          Terry Bradshaw                  12               
+    Oakland Raiders         1981     Jim Plunkett                     Tom Flores          Jim Plunkett                    17               
+    San Francisco 49ers     1982     Joe Montana                      Bill Walsh          Joe Montana                     5                
+    Washington Redskins     1983     Joe Theismann                    Joe Gibbs           John Riggins                    10               
+    Los Angeles Raiders     1984     Jim Plunkett                     Tom Flores          Marcus Allen                    29               
+    San Francisco 49ers     1985     Joe Montano                      Bill Walsh          Joe Montana                     22               
+    Chicago Bears           1986     Jim McMahon                      Mike Ditka          Richard Dent                    36               
+    New York Giants         1987     Phil Simms                       Bill Parcells       Phil Simms                      19               
+    Washington Redskins     1988     Doug Williams                    Joe Gibbs           Doug Williams                   32               
+    San Francisco 49ers     1989     Joe Montana                      Bill Walsh          Jerry Rice                      4                
+    San Francisco 49ers     1990     Joe Montana                      George Seifert      Joe Montana                     45               
+    New York Giants         1991     Jeff Hostetler                   Bill Parcells       Ottis Anderson                  1                
+    Washington Redskins     1992     Mark Rypien                      Joe Gibbs           Mark Rypien                     13               
+    Dallas Cowboys          1993     Troy Aikman                      Jimmy Johnson       Troy Aikman                     35               
+    Dallas Cowboys          1994     Troy Aikman                      Jimmy Johnson       Emmitt Smith                    17               
+    San Francisco 49ers     1995     Steve Young                      George Seifert      Steve Young                     23               
+    Dallas Cowboys          1996     Troy Aikman                      Barry Switzer       Larry Brown                     10               
+    Green Bay Packers       1997     Brett Favre                      Mike Holmgren       Desmond Howard                  14               
+    Denver Broncos          1998     John Elway                       Mike Shanahan       Terrell Davis                   7                
+    Denver Broncos          1999     John Elway                       Mike Shanahan       John Elway                      15               
+    St. Louis Rams          2000     Kurt Warner                      Dick Vermeil        Kurt Warner                     7                
+    Baltimore Ravens        2001     Trent Dilfer                     Brian Billick       Ray Lewis                       27               
+    New England Patriots    2002     Tom Brady                        Bill Belichick      Tom Brady                       3                
+    Tampa Bay Buccaneers    2003     Brad Johnson                     Jon Gruden          Dexter Jackson                  27               
+    New England Patriots    2004     Tom Brady                        Bill Belichick      Tom Brady                       3                
+    New England Patriots    2005     Tom Brady                        Bill Belichick      Deion Branch                    3                
+    Pittsburgh Steelers     2006     Ben Roethlisberger               Bill Cowher         Hines Ward                      11               
+    Indianapolis Colts      2007     Peyton Manning                   Tony Dungy          Peyton Manning                  12               
+    New York Giants         2008     Eli Manning                      Tom Coughlin        Eli Manning                     3                
+    Pittsburgh Steelers     2009     Ben Roethlisberger               Mike Tomlin         Santonio Holmes                 4                
+    New Orleans Saints      2010     Drew Brees                       Sean Payton         Drew Brees                      14               
+    Green Bay Packers       2011     Aaron Rodgers                    Mike McCarthy       Aaron Rodgers                   6                
+    New York Giants         2012     Eli Manning                      Tom Coughlin        Eli Manning                     4                
+    Baltimore Ravens        2013     Joe Flacco                       John Harbaugh       Joe Flacco                      3                
+    Seattle Seahawks        2014     Russell Wilson                   Pete Carroll        Malcolm Smith                   35               
+    New England Patriots    2015     Tom Brady                        Bill Belichick      Tom Brady                       4                
+    Denver Broncos          2016     Peyton Manning                   Gary Kubiak         Von Miller                      14               
+    New England Patriots    2017     Tom Brady                        Bill Belichick      Tom Brady                       6                
+
+                                      TOP FIVE ATTENDED SUPER BOWLS                                            
+----Year-----Winning Team------------Losing Team-------------Host City--------Host State------Host Stadium-----
+    1980     Pittsburgh Steelers     Los Angeles Rams        Pasadena         California      Rose Bowl        
+    1983     Washington Redskins     Miami Dolphins          Pasadena         California      Rose Bowl        
+    1977     Oakland Raiders         Minnesota Vikings       Pasadena         California      Rose Bowl        
+    2011     Green Bay Packers       Pittsburgh Steelers     Arlington        Texas           Cowboys Stadium  
+    1987     New York Giants         Denver Broncos          Pasadena         California      Rose Bowl        
+
+        THE STATE THAT HOSTED THE MOST SUPER BOWLS       
+------Host City--------Host State-------Host Stadium-------
+      Miami            Florida          Orange Bowl      
+      Miami            Florida          Orange Bowl      
+      Miami            Florida          Orange Bowl      
+      Miami            Florida          Orange Bowl      
+      Miami            Florida          Orange Bowl      
+      Tampa            Florida          Tampa Stadium    
+      Miami Gardens    Florida          Joe Robbie Stadium
+      Tampa            Florida          Tampa Stadium    
+      Miami Gardens    Florida          Joe Robbie Stadium
+      Miami Gardens    Florida          Pro Player Stadium
+      Tampa            Florida          Raymond James Stadium
+      Jacksonville     Florida          Alltel Stadium   
+      Miami Gardens    Florida          Dolphin Stadium  
+      Tampa            Florida          Raymond James Stadium
+      Miami Gardens    Florida          Sun Life Stadium 
+
+        PLAYERS WHO WON THE SUPER BOWL MVP TITLE MORE THAN ONCE          
+------Super Bowl MVP--------Winning Team--------------Losing Team--------
+      Tom Brady             New England Patriots      St. Louis Rams           
+      Tom Brady             New England Patriots      Carolina Panthers        
+      Tom Brady             New England Patriots      Seattle Seahawks         
+      Tom Brady             New England Patriots      Atlanta Falcons          
+      Joe Montana           San Francisco 49ers       Cincinnati Bengals       
+      Joe Montana           San Francisco 49ers       Miami Dolphins           
+      Joe Montana           San Francisco 49ers       Denver Broncos           
+      Bart Starr            Green Bay Packers         Kansas City Chiefs       
+      Bart Starr            Green Bay Packers         Oakland Raiders          
+      Terry Bradshaw        Pittsburgh Steelers       Dallas Cowboys           
+      Terry Bradshaw        Pittsburgh Steelers       Los Angeles Rams         
+      Eli Manning           New York Giants           New England Patriots     
+      Eli Manning           New York Giants           New England Patriots     
+
+THE COACH THAT LOST THE MOST SUPER BOWLS
+  Don Shula  
+
+THE COACH THAT WON THE MOST SUPER BOWLS
+  Bill Belichick  
+
+THE TEAM(s) THAT WON THE MOST SUPER BOWLS
+  Pittsburgh Steelers  
+
+THE TEAM(s) THAT LOST THE MOST SUPER BOWLS
+  Denver Broncos  
+
+THE SUPER BOWL THAT HAD THE GREATEST POINT DIFFERENCE
+Super Bowl XXIV had the greatest point differnce of 45 in 1990.
+
+AVERAGE ATTENDANCE OF ALL SUPER BOWLS 1967-2017
+The average attendance at Super Bowls between 1967 to 2017 is 77,649 attendees.
