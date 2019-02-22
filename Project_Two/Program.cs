@@ -17,21 +17,18 @@ namespace Project_Two
             string stepBackTwo = Directory.GetParent(stepBackOne).ToString();
             string stepBackThree = Directory.GetParent(stepBackTwo).ToString();
             string adjustedFilePath = $@"{stepBackThree}\Super_Bowl_Project.csv";
-            
+
             string userInput;
-            
+
             Console.WriteLine("Hello there! This console application will create a text file with interesting Super Bowl facts up to the 2017 season.\n" +
                               "It even allows you to give a title to the text file.  ");
             Console.WriteLine("Enter a filename [EXTENSION is NOT NEEDED]: ");
-
             userInput = Console.ReadLine();
+            
             string filePath2 = $@"{stepBackThree}\{userInput}.txt";
-            
-            
-                
+                        
             ReadWriteFiles(adjustedFilePath, filePath2);
-            //FileException(filePath2, out FileStream fileStream);
-            
+
         }
 
         
@@ -42,8 +39,9 @@ namespace Project_Two
                                              .Select(v => SuperBowl.FromCsv(v))
                                              .ToList();
 
-
+            
             StreamWriter sw = new StreamWriter(filePath2);
+            
             sw.WriteLine("                                                        SUPER BOWL WINNERS                                                              ");
             sw.WriteLine("----Winning Team------------Year-----Winning Quarterback--------------Winning Coach-------Super Bowl MVP------------------Point Spread--");
             var superBowlWinners =
@@ -227,24 +225,22 @@ namespace Project_Two
 
         }
 
-        /*static void FileException(string filePath2, out FileStream fileStream)
+        /*static void FileException(string userInput)
         {
-            if (File.Exists(filePath2))
+            if (userInput == null)
             {
-                File.Delete(filePath2);
+                throw new ArgumentNullException();
+                
             }
-            try
+            else if (userInput.Contains(".txt") || userInput.Contains(".html") || userInput.Contains(".doc")
+                            || userInput.Contains(".docx") || userInput.Contains(".odt") || userInput.Contains(".pdf")
+                            || userInput.Contains(".rtf") || userInput.Contains(".tex") || userInput.Contains(".wks")
+                            || userInput.Contains(".wps") || userInput.Contains(".wpd"))
             {
-                fileStream = File.Create(filePath2);
-                Console.WriteLine("Your text file has been successfully created!");
+                Console.WriteLine("Please remember to leave out the extension.  Please try again: ");
+
             }
-            catch(Exception e)
-            {
-                Console.WriteLine("That was an invalid file name. \n" +
-                    "              Don't worry though, I have you covered.\n" +
-                    "              I have created a file with the name superBowlData.txt for you.");
-                fileStream = File.Create(filePath2);
-            }
+
         }*/
     }
 }
