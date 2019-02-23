@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Project_Two
 {
+    //SuperBowl Object Class
     class SuperBowl
     {
         public DateTime Date { get; set; }
@@ -23,6 +24,7 @@ namespace Project_Two
         public string hostCity { get; set; }
         public string hostState { get; set; }
 
+        //Method helps assign values to values list
         public static SuperBowl FromCsv(string csvLine)
         {
             string[] values = csvLine.Split(',');

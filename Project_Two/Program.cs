@@ -12,36 +12,40 @@ namespace Project_Two
     {
         static void Main(string[] args)
         {
+            //Program should read the file from where the project folder exist.
             string filePath = Directory.GetCurrentDirectory();
             string stepBackOne = Directory.GetParent(filePath).ToString();
             string stepBackTwo = Directory.GetParent(stepBackOne).ToString();
             string stepBackThree = Directory.GetParent(stepBackTwo).ToString();
             string adjustedFilePath = $@"{stepBackThree}\Super_Bowl_Project.csv";
 
-            string userInput;
-
             Console.WriteLine("Hello there! This console application will create a text file with interesting Super Bowl facts up to the 2017 season.\n" +
                               "It even allows you to give a title to the text file.  ");
             Console.WriteLine("Enter a filename [EXTENSION is NOT NEEDED]: ");
-            userInput = Console.ReadLine();
-            
+
+            //end-user establishes the file name
+            string userInput = Console.ReadLine();
+            //FileException(userInput);  -- Unfortunately I can not figure out how to implement exception handling
+
+            //filePath2 variable establishes where the text file will be saved
             string filePath2 = $@"{stepBackThree}\{userInput}.txt";
                         
             ReadWriteFiles(adjustedFilePath, filePath2);
 
         }
 
-        
+        //Method that writes to filePath2(includes all queries)
         static void ReadWriteFiles(string adjustedFilePath, string filePath2)
         {
+            //Create list of SuperBowl objects
             List<SuperBowl> values = File.ReadAllLines(adjustedFilePath)
                                              .Skip(1)
                                              .Select(v => SuperBowl.FromCsv(v))
                                              .ToList();
-
-            
+            //Enable writing to the text file            
             StreamWriter sw = new StreamWriter(filePath2);
             
+            //Generate a list of all super bowl winners
             sw.WriteLine("                                                        SUPER BOWL WINNERS                                                              ");
             sw.WriteLine("----Winning Team------------Year-----Winning Quarterback--------------Winning Coach-------Super Bowl MVP------------------Point Spread--");
             var superBowlWinners =
@@ -57,7 +61,8 @@ namespace Project_Two
                 
 
             }
-            
+
+            //Generate a list of the top five attended super bowl’s
             sw.WriteLine("");
             sw.WriteLine("                                      TOP FIVE ATTENDED SUPER BOWLS                                            ");
             sw.WriteLine("----Year-----Winning Team------------Losing Team-------------Host City--------Host State------Host Stadium-----");
@@ -74,6 +79,7 @@ namespace Project_Two
                 
             }
 
+            //Output the state that hosted the  most super bowls
             sw.WriteLine("");
             sw.WriteLine("        THE STATE THAT HOSTED THE MOST SUPER BOWLS       ");
             sw.WriteLine("------Host City--------Host State-------Host Stadium-------");
@@ -96,6 +102,7 @@ namespace Project_Two
                 }
             }
 
+            //Generate a list of players who won MVP more than once
             sw.WriteLine("");
             sw.WriteLine("        PLAYERS WHO WON THE SUPER BOWL MVP TITLE MORE THAN ONCE          ");
             sw.WriteLine("------Super Bowl MVP--------Winning Team--------------Losing Team--------");
@@ -118,7 +125,7 @@ namespace Project_Two
                 
             }
 
-
+            //Which coach lost the most super bowls?
             sw.WriteLine("");
             sw.WriteLine("THE COACH THAT LOST THE MOST SUPER BOWLS");
 
@@ -138,6 +145,7 @@ namespace Project_Two
                 }
             }
 
+            //Which coach won the most super bowls?
             sw.WriteLine("");
             sw.WriteLine("THE COACH THAT WON THE MOST SUPER BOWLS");
 
@@ -157,6 +165,7 @@ namespace Project_Two
                 }
             }
 
+            //Which team(s) won the most super bowls?
             sw.WriteLine("");
             sw.WriteLine("THE TEAM(s) THAT WON THE MOST SUPER BOWLS");
 
@@ -176,6 +185,7 @@ namespace Project_Two
                 }
             }
 
+            //Which team(s) lost the most super bowls?
             sw.WriteLine("");
             sw.WriteLine("THE TEAM(s) THAT LOST THE MOST SUPER BOWLS");
 
@@ -195,6 +205,7 @@ namespace Project_Two
                 }
             }
 
+            //Which Super bowl had the greatest point difference?
             sw.WriteLine("");
             sw.WriteLine("THE SUPER BOWL THAT HAD THE GREATEST POINT DIFFERENCE");
 
@@ -213,6 +224,7 @@ namespace Project_Two
                 }
             }
 
+            //What is the average attendance of all super bowls?
             sw.WriteLine("");
             sw.WriteLine("AVERAGE ATTENDANCE OF ALL SUPER BOWLS 1967-2017");
             double AvgAttendance = values.Average(superBowl => superBowl.Attendance);
@@ -227,19 +239,26 @@ namespace Project_Two
 
         /*static void FileException(string userInput)
         {
-            if (userInput == null)
+            while (true)
             {
-                throw new ArgumentNullException();
+                if (string.IsNullOrEmpty(userInput))
+                {
+                    Console.WriteLine("Enter a filename [EXTENSION is NOT NEEDED]: ");
+                    
+                }
+                else if (userInput.Contains(".txt") || userInput.Contains(".html") || userInput.Contains(".doc")
+                                || userInput.Contains(".docx") || userInput.Contains(".odt") || userInput.Contains(".pdf")
+                                || userInput.Contains(".rtf") || userInput.Contains(".tex") || userInput.Contains(".wks")
+                                || userInput.Contains(".wps") || userInput.Contains(".wpd"))
+                {
+                    Console.WriteLine("Please remember to leave out the extension.  Please try again: ");
+                    
+                }
                 
+                else break;
             }
-            else if (userInput.Contains(".txt") || userInput.Contains(".html") || userInput.Contains(".doc")
-                            || userInput.Contains(".docx") || userInput.Contains(".odt") || userInput.Contains(".pdf")
-                            || userInput.Contains(".rtf") || userInput.Contains(".tex") || userInput.Contains(".wks")
-                            || userInput.Contains(".wps") || userInput.Contains(".wpd"))
-            {
-                Console.WriteLine("Please remember to leave out the extension.  Please try again: ");
-
-            }
+            
+            
 
         }*/
     }
